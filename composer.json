@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "callmehalpha/laraauth",
+    "description": "Custom Laravel Authentication",
     "keywords": [
-        ":vendor_name",
+        "callmehalpha",
         "laravel",
-        ":package_slug"
+        "laraauth"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/callmehalpha/laraauth",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Yisau Abdulazeez",
+            "email": "hello@callmehalpha.me",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Callmehalpha\\Laraauth\\": "src",
+            "Callmehalpha\\Laraauth\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Callmehalpha\\Laraauth\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Callmehalpha\\Laraauth\\LaraauthServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "Laraauth": "Callmehalpha\\Laraauth\\LaraauthFacade"
             }
         }
     },
