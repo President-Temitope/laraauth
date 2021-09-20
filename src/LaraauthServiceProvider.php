@@ -2,9 +2,9 @@
 
 namespace Callmehalpha\Laraauth;
 
+use Callmehalpha\Laraauth\Commands\LaraauthCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Callmehalpha\Laraauth\Commands\LaraauthCommand;
 
 class LaraauthServiceProvider extends PackageServiceProvider
 {

@@ -2,9 +2,9 @@
 
 namespace Callmehalpha\Laraauth\Tests;
 
+use Callmehalpha\Laraauth\LaraauthServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Callmehalpha\Laraauth\LaraauthServiceProvider;
 
 class TestCase extends Orchestra
 {
