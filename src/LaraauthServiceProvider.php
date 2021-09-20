@@ -21,5 +21,8 @@ class LaraauthServiceProvider extends PackageServiceProvider
             ->hasViews()
             ->hasMigration('create_laraauth_table')
             ->hasCommand(LaraauthCommand::class);
+        $this->loadRoutesFrom(__DIR__.'/routes/laraauth-routes.php');
+        $this->loadViewsFrom(__DIR__.'/../../resources/views', 'Callmehalpha\Laraauth');
+
     }
 }
